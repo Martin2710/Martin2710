@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Contactanos</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<br>
+<body>
+	<div class="form">
+		<section class="contact_info">
+			<h2>INFORMACION<br>DE CONTACTO</h2>
+			<a href="https://www.facebook.com/Universidad-Talentosa-SLP-101925155968244/photos/?ref=page_internal"
+			 title="Nuestro facebook">Ir a nuestra pagina de facebook</a>
+			<a href="https://www.instagram.com/uttslp/" title="Nuestro Instagram">Ir a nuestra pagina de Instagram</a>
+			<p>Número: +51 (444) 5184508</p>
+				
+		</section>
+		<form action="guardar.php" method="POST">
+
+		<h1>CONTACTANOS</h1>
+		<label for="nombre"><center>Nombre</center></label>
+		<br>
+		<input autocomplete="off" type="text" name="nombre" placeholder="Nombre" required="">
+		<br>	
+		<label for="correo"><center>Direccion de Correo</center></label>
+		<br>
+		<input autocomplete="off" type="text" name="correo" placeholder="alguien@algo.com" required="">
+		<br>
+		<label for="mensaje"><center>Mensaje</center></label>
+		<br>
+		<textarea name="mensaje" placeholder="Mensaje" required=""></textarea>
+		<br>
+		<br>
+		<input type="submit" name="Enviar">
+		<input type="reset" name="Eliminar">
+
+        </form> 
+    </div>
+	
+</body>
+</html>
